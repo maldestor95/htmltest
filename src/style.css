@@ -1,0 +1,22 @@
+body {
+    margin: 0 10;
+}
+
+section h2~* {
+    margin-left: 30px;
+}
+
+section h3~* {
+    margin-left: 40px;
+}
+
+section h3~a:before {
+    content: "-";
+}
+h3 {
+    margin: 10 0 0;
+}
+section h2 {
+    margin: 10 0 0;
+    font-style: italic;
+}

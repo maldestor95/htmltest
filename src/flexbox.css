@@ -1,0 +1,13 @@
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: lightblue;
+    flex-basis: 200px;
+}
+.box div {
+    flex-grow: 0.1;
+    width: auto;
+    background-color: lightcoral;
+    margin: 5px;
+}
+
